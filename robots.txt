@@ -1,0 +1,45 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /public/admin/
+Disallow: /public/cgi-bin/
+Disallow: /public/tmp/
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /bootstrap/
+Disallow: /config/
+Disallow: /database/
+Disallow: /routes/
+Disallow: /tests/
+Disallow: /artisan
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /phpunit.xml
+Disallow: /server.php
+Disallow: /yarn.lock
+Disallow: /npm-debug.log
+Disallow: /package.json
+Disallow: /webpack.mix.js
+Disallow: /*?sort_by=
+
+Allow: /san-pham
+Allow: /san-pham?page=
+Allow: /chi-tiet-san-pham/
+Allow: /public/
+Allow: /public/css/*.css
+Allow: /public/js/*.js
+Allow: /public/fonts/*.woff
+Allow: /public/fonts/*.woff2
+Allow: /public/images/*.jpg
+Allow: /public/images/*.jpeg
+Allow: /public/images/*.png
+Allow: /public/images/*.gif
+
+# Ưu tiên Googlebot nhưng vẫn giữ kiểm soát
+User-agent: Googlebot
+Allow: /
+
+# Cung cấp Sitemap để Google lập chỉ mục tốt hơn
+Sitemap: https://www.unitekvn.com/sitemap.xml
+

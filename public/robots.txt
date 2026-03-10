@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+Allow: /san-pham/
+Allow: /chi-tiet-san-pham/
+Allow: /tin-tuc/
+Allow: /gioi-thieu
+Allow: /lien-he
+Allow: /tim-kiem
+Disallow: /admin
+Disallow: /admin-login
+Disallow: /dashboard
+Disallow: /upload/
+Disallow: /storage/
+Disallow: /*.php
+Disallow: /*?*sort_by=*
+Disallow: /*?*filter_category=*&*
+Disallow: /search?
+Disallow: /checkout
+Disallow: /login
+Disallow: /register
+
+# Crawl delay (milliseconds)
+Crawl-delay: 2
+
+# Sitemap location
+Sitemap: https://unitekvn.com/sitemap.xml
+
+# Google Search Console
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1

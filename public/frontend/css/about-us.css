@@ -1,0 +1,501 @@
+/* =====================
+   TF BREADCRUMB
+===================== */
+.tf-breadcrumb {
+    position: relative;
+    padding: 14px 0;
+    background: rgba(10, 10, 20, 0.75);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(130, 0, 255, 0.25);
+}
+
+.tf-breadcrumb-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Breadcrumb list */
+.tf-breadcrumb-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.tf-breadcrumb-list a,
+.tf-breadcrumb-list span {
+    color: #e5e5e5;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+.tf-breadcrumb-list a:hover {
+    color: #ff005c;
+}
+
+.tf-breadcrumb-list i {
+    font-size: 12px;
+    color: #a855f7;
+}
+
+/* Action buttons */
+.tf-breadcrumb-prev-next {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tf-breadcrumb-prev-next a {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid rgba(130,0,255,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2b2b2b;
+    transition: all .3s ease;
+}
+
+.tf-breadcrumb-prev-next a:hover {
+    background: linear-gradient(135deg, #ff005c, #7c00ff);
+    box-shadow: 0 0 15px rgba(124,0,255,.6);
+}
+
+.tf-breadcrumb-prev-next i {
+    font-size: 14px;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+    .tf-breadcrumb-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+	.grax_tm_hero {
+    position: relative;
+    min-height: 200px!important;
+	height:200px;
+    width: 100%;
+    overflow: hidden;
+}
+	.grax_tm_hero .content {
+		min-height: 200px!important;
+	}
+	.about-us-center-area {
+	padding: 50px 0px!important;
+	}
+}
+
+
+
+/* =====================
+   HERO WRAPPER
+===================== */
+.grax_tm_hero {
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* =====================
+   BACKGROUND LAYER
+===================== */
+.grax_tm_hero .bg {
+    position: absolute;
+    inset: 0;
+}
+
+/* Ảnh nền */
+.grax_tm_hero .bg .image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;        /* QUAN TRỌNG */
+    background-position: center;   /* QUAN TRỌNG */
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* Particles */
+.grax_tm_hero .particle_wrapper {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* Overlay */
+.grax_tm_hero .overlay {
+    position: absolute;
+    inset: 0;
+    /* background: linear-gradient(
+        to bottom,
+        rgba(5, 5, 15, 0.048),
+        rgba(5, 5, 15, 0.158)
+    ); */
+    z-index: 3;
+}
+
+/* =====================
+   CONTENT
+===================== */
+.grax_tm_hero .content {
+    position: relative;
+    z-index: 4;
+    min-height: 50vh;           /* QUAN TRỌNG */
+    display: flex;
+    align-items: center;         /* căn giữa theo trục dọc */
+    justify-content: center;     /* căn giữa theo trục ngang */
+    text-align: center;
+}
+
+.grax_tm_hero .content .container {
+    width: 100%;
+}
+
+.grax_tm_hero .details {
+    text-align: center;
+}
+
+/* Name */
+.grax_tm_hero .name {
+    font-size: 56px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #ff1a1a; /* đỏ gaming */
+
+    /* Glow + depth */
+    text-shadow:
+        0 0 6px rgba(255, 26, 26, 0.9),
+        0 0 16px rgba(255, 26, 26, 0.7),
+        0 0 32px rgba(180, 0, 0, 0.8),
+        0 6px 18px rgba(0, 0, 0, 0.6);
+}
+.grax_tm_hero .subtitle {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffb3b3;
+    opacity: .9;
+}
+
+/* Job */
+.grax_tm_hero .job {
+    display: block;
+    margin-top: 14px;
+    font-size: 32px;          /* to hơn trước */
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #ffd1d1;
+}
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+    .grax_tm_hero .name {
+        font-size: 34px;
+    }
+
+    .grax_tm_hero .job {
+        font-size: 15px;
+    }
+}
+
+
+
+
+/* =====================
+   ABOUT SECTION
+===================== */
+.about-container {
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+}
+
+.about-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px 60px;
+
+    /* 🔥 FIX QUAN TRỌNG */
+    grid-auto-flow: row dense;
+}
+
+/* =====================
+   ITEM BASE
+===================== */
+.about-item {
+    display: flex;
+    align-items: center;
+}
+
+/* =====================
+   TEXT
+===================== */
+.about-item-info {
+    padding: 20px 10px;
+}
+
+.about-item-title {
+    font-family: "Tektur", sans-serif!important;
+    letter-spacing: 1.8px;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.5em;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #ff2e2e;
+    text-shadow: 0 0 12px rgba(255, 46, 46, 0.6);
+}
+
+.about-item-desc {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #2b2b2b;
+}
+
+/* =====================
+   IMAGE
+===================== */
+.about-type-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-item-img {
+    width: 100%;
+    max-width: 520px;
+}
+
+.about-item-img media-img,
+.about-item-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow:
+        0 0 30px rgba(255, 0, 0, 0.486),
+        0 0 60px rgba(130, 0, 255, 0.15);
+}
+
+/* =====================
+   XEN KẼ CHUẨN – KHÔNG LỖI
+===================== */
+/* Mặc định:
+   Text trái – Image phải
+*/
+.about-item.aa {
+    grid-column: 1;
+}
+
+.about-item.bb {
+    grid-column: 2;
+}
+
+/* Dòng chẵn → Image trái – Text phải */
+.about-item:nth-child(4n + 3).aa {
+    grid-column: 2;
+}
+
+.about-item:nth-child(4n + 4).bb {
+    grid-column: 1;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 992px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .about-item {
+        grid-column: 1 !important;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-item-info {
+        padding: 0;
+    }
+
+    .about-item-title {
+        font-size: 28px;
+    }
+
+    .about-item-desc {
+        font-size: 16px;
+    }
+
+    .about-item-img {
+        max-width: 100%;
+    }
+}
+/* =====================
+   BOTTOM IMAGE SECTION
+===================== */
+.bottom-bg {
+    width: 100%;
+    padding: 2px;
+    margin-top: 15px;
+    overflow: hidden;            /* tránh tràn ảnh */
+    background: #ffffff;         /* fallback nếu ảnh chưa load */
+}
+
+/* Ảnh */
+.bottom-bg img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;              /* bỏ khoảng trắng dưới img */
+    object-fit: cover;
+}
+.bottom-bg img {
+    box-shadow:
+        0 0 40px rgba(255, 0, 0, 0.562),
+        0 0 80px rgba(130, 0, 255, 0.15);
+}
+
+
+/* =====================
+   ABOUT US CENTER AREA
+===================== */
+.about-us-center-area {
+    padding: 80px 0;
+    
+    color: #ffffff;
+}
+
+/* =====================
+   TITLE
+===================== */
+.about-us-center-content h4 {
+    font-family: "Tektur", sans-serif!important;
+    letter-spacing: 1.8px;
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ff2e2e;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+    text-shadow:
+        0 0 10px rgba(255, 46, 46, 0.6),
+        0 0 30px rgba(255, 46, 46, 0.3);
+}
+
+/* =====================
+   PROMO CARD
+===================== */
+.about-promo-single-item {
+    padding: 40px 28px;
+    height: 100%;
+    border-radius: 18px;
+    background: #e3e3e3;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 46, 46, 0.35);
+    text-align: center;
+    transition: all 0.35s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Glow nền */
+.about-promo-single-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        circle at top,
+        rgba(255, 46, 46, 0.18),
+        transparent 70%
+    );
+    opacity: 0;
+    transition: .35s;
+}
+
+/* Hover */
+.about-promo-single-item:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow:
+        0 0 30px rgba(255, 28, 28, 0.788),
+        0 0 80px rgba(130, 0, 255, 0.25);
+}
+
+.about-promo-single-item:hover::before {
+    opacity: 1;
+}
+
+/* =====================
+   ICON
+===================== */
+.about-promo-single-item i {
+    font-size: 58px;
+    margin-bottom: 22px;
+    display: block;
+    color: #ff2e2e;
+    text-shadow:
+        0 0 12px rgba(255, 46, 46, 0.8),
+        0 0 28px rgba(255, 46, 46, 0.5);
+    transition: transform .3s ease;
+}
+
+.about-promo-single-item:hover i {
+    transform: scale(1.15) rotate(-2deg);
+}
+
+/* =====================
+   TITLE + DESC
+===================== */
+.about-promo-single-item h6 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.about-promo-single-item p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin: 0;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 992px) {
+    .about-us-center-content h4 {
+        font-size: 35px!important;
+        margin-bottom: 25px!important;
+		line-height: 60px!important;
+    }
+
+    .about-promo-single-item {
+        padding: 15px 15px!important;
+		margin-bottom: 0px!important;
+    }
+
+    .about-promo-single-item i {
+        font-size: 46px!important;
+    }
+	.about-us-4-items{
+		margin-bottom:15px;
+	}
+}
