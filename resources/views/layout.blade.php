@@ -436,10 +436,10 @@ setTimeout(function() {
                                             <a href="#" class="item-link">Về chúng tôi<i class="icon icon-arrow-down"></i></a>
                                             <div class="sub-menu mega-menu" style="padding-top:4px;padding-bottom:4px">
                                                 <ul class="menu-list">
-                                                    <li><a href="{{ URL::to('/gioi-thieu') }}"
+                                                    <li><a href=""
                                                                             class="menu-link-text">Giới thiệu</a>
                                                                     </li>
-                                                    <li><a href="{{ URL::to('/lien-he') }}" class="menu-link-text">Liên hệ</a>
+                                                    <li><a href="" class="menu-link-text">Liên hệ</a>
                                                     </li>
                                                     <li><a href="{{ URL::to('/policy-all') }}" class="menu-link-text">Chính sách</a>
                                                     </li>
@@ -609,8 +609,8 @@ setTimeout(function() {
                             <h3 class="footer-widget-title">Thông tin</h3>
                             <div class="footer-menu">
                                 <ul class="footer-menu-nav">
-                                    <li><a href="{{ URL::to('/gioi-thieu') }}">Về chúng tôi</a></li>
-                                    <li><a href="{{ URL::to('/lien-he') }}">Liên hệ</a></li>
+                                    <li><a href="">Về chúng tôi</a></li>
+                                    <li><a href="">Liên hệ</a></li>
                                     <li><a href="{{ URL::to('/san-pham') }}">Sản phẩm</a></li>
                                 </ul>
                                 <ul class="footer-menu-nav">

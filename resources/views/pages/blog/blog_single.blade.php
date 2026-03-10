@@ -677,15 +677,15 @@
   "dateModified": "{{ $details_blog->updated_at->toIso8601String() }}",
   "author": {
     "@type": "Organization",
-    "name": "Unitek Việt Nam",
-    "url": "https://unitekvn.com"
+    "name": "Hiếu Store",
+    "url": "https://khotoolsocial.click/"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Unitek Việt Nam",
+    "name": "Hiếu Store",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ asset('public/frontend/images/logo/logo-footer-unitek.webp') }}"
+      "url": "{{ asset('public/frontend/images/logo/logo.webp') }}"
     }
   },
   "description": "{{ strip_tags(Str::limit($details_blog->blog_desc ?? $details_blog->blog_content, 200)) }}"

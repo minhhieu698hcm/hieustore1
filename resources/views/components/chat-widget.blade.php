@@ -1035,7 +1035,7 @@
 <div id="site-chat" class="site-chat-panel" aria-hidden="true" data-state="closed" role="region"
     aria-label="Chat widget">
     <div class="site-chat-header">
-        <span id="site-chat-title">UNITEK VIỆT NAM</span>
+        <span id="site-chat-title">HIẾU STORE</span>
         <button class="site-chat-close-btn" id="chat-close-btn" title="Đóng" data-action="close" type="button"
             aria-label="Đóng chat">✕</button>
     </div>
@@ -1374,7 +1374,7 @@ markMessagesReadCustomer: function () {
             const createNewFromHistoryBtn = document.getElementById('chat-create-new-from-history-btn');
             if (createNewFromHistoryBtn) {
                 createNewFromHistoryBtn.addEventListener('click', (e) => {
-                    if (titleBar) titleBar.textContent = "UNITEK VIỆT NAM";
+                    if (titleBar) titleBar.textContent = "HIẾU STORE";
                     e.preventDefault();
                     self.setActiveNav(navHome);
                     self.startNewSession();
@@ -1453,7 +1453,7 @@ markMessagesReadCustomer: function () {
             
             if (navHome) {
                 navHome.addEventListener('click', (e) => {
-                    if (titleBar) titleBar.textContent = "UNITEK VIỆT NAM";
+                    if (titleBar) titleBar.textContent = "HIẾU STORE";
                     e.preventDefault();
                     self.setActiveNav(navHome);
                     self.showInitForm();
@@ -1463,7 +1463,7 @@ markMessagesReadCustomer: function () {
                 // Back button in search screen
                 if (e.target.id === "search-back-btn" || e.target.closest("#search-back-btn")) {
                     const titleBar = document.getElementById("site-chat-title");
-                    titleBar.textContent = "UNITEK VIỆT NAM";
+                    titleBar.textContent = "HIẾU STORE";
 
                     self.setActiveNav(navHome);
                     self.showInitForm();
@@ -1473,7 +1473,7 @@ markMessagesReadCustomer: function () {
                 // Back button in history screen
                 if (e.target.id === "history-back-btn" || e.target.closest("#history-back-btn")) {
                     const titleBar = document.getElementById("site-chat-title");
-                    titleBar.textContent = "UNITEK VIỆT NAM";
+                    titleBar.textContent = "HIẾU STORE";
 
                     self.setActiveNav(navHome);
                     self.showInitForm();
@@ -2700,7 +2700,7 @@ if (m.is_admin) {
     if (historyScreen) historyScreen.style.display = 'none';
 
     const titleBar = document.getElementById('site-chat-title');
-    if (titleBar) titleBar.textContent = "UNITEK VIỆT NAM";
+    if (titleBar) titleBar.textContent = "HIẾU STORE";
 
     const self = this;
 
