@@ -13,7 +13,7 @@
                         <div class="breadcrumb-nav">
                             <nav aria-label="breadcrumb">
                                 <ul>
-                                    <li><a href="{{ URL::to('https://unitekvn.com/') }}">Trang chủ</a></li>
+                                    <li><a href="{{ URL::to('https://khotoolsocial.click/') }}">Trang chủ</a></li>
                                     <li class="active" aria-current="page">Giỏ hàng</li>
                                 </ul>
                             </nav>

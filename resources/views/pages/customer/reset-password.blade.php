@@ -1,35 +1,35 @@
-<title>Unitek Việt Nam - Website chính thức thương hiệu UNITEK tại Việt Nam</title>
+<title>Hiếu Store - Website chính thức thương hiệu Hiếu Store tại Việt Nam</title>
    <meta name="description"
-    content="Unitek Việt Nam - Website chính thức thương hiệu UNITEK tại Việt Nam. Cung cấp cáp HDMI, cáp HDMI Unitek, USB, dock sạc, hub USB, bộ chuyển đổi, bộ thu phát HDMI không dây, bộ mở rộng HDMI, phụ kiện máy tính, phụ kiện laptop, thiết bị mạng và nhiều linh kiện công nghệ chính hãng, chất lượng cao." />
+    content="Hiếu Store - Website chính thức thương hiệu Hiếu Store tại Việt Nam. Cung cấp cáp HDMI, cáp HDMI Hiếu Store, USB, dock sạc, hub USB, bộ chuyển đổi, bộ thu phát HDMI không dây, bộ mở rộng HDMI, phụ kiện máy tính, phụ kiện laptop, thiết bị mạng và nhiều linh kiện công nghệ chính hãng, chất lượng cao." />
     <meta name="keywords"
-    content="Unitek, Unitek Việt Nam, cáp hdmi, cáp HDMI Unitek, bộ chuyển đổi Unitek, bộ thu phát HDMI, bộ thu phát không dây, bộ thu phát hdmi không dây, dây sạc Unitek,dây sạc,dock sạc, dock sạc Unitek, hub chia,hub máy tính, card PCI, switch, phụ kiện gaming, phụ kiện âm thanh, phụ kiện video, bộ mở rộng, đầu đọc thẻ, giá đỡ laptop, hdd ssd lưu trữ, bộ chuyển mạch KVM, thiết bị mạng, phụ kiện sạc, linh kiện công nghệ, Unitek chính hãng, linh kiện Unitek giá tốt, sản phẩm Unitek, đại lý Unitek, bộ chuyển đổi, bộ phát HDMI, bộ mở rộng HDMI, bộ chuyển mạch, bộ chia cổng, bộ chuyển đổi tín hiệu, phụ kiện máy tính, phụ kiện laptop, phụ kiện điện tử, phụ kiện văn phòng, phụ kiện công nghệ" />
-    <meta name="author" content="Unitek Việt Nam" />
+    content="Hiếu Store, Hiếu Store, cáp hdmi, cáp HDMI Hiếu Store, bộ chuyển đổi Hiếu Store, bộ thu phát HDMI, bộ thu phát không dây, bộ thu phát hdmi không dây, dây sạc Hiếu Store,dây sạc,dock sạc, dock sạc Hiếu Store, hub chia,hub máy tính, card PCI, switch, phụ kiện gaming, phụ kiện âm thanh, phụ kiện video, bộ mở rộng, đầu đọc thẻ, giá đỡ laptop, hdd ssd lưu trữ, bộ chuyển mạch KVM, thiết bị mạng, phụ kiện sạc, linh kiện công nghệ, Hiếu Store chính hãng, linh kiện Hiếu Store giá tốt, sản phẩm Hiếu Store, đại lý Hiếu Store, bộ chuyển đổi, bộ phát HDMI, bộ mở rộng HDMI, bộ chuyển mạch, bộ chia cổng, bộ chuyển đổi tín hiệu, phụ kiện máy tính, phụ kiện laptop, phụ kiện điện tử, phụ kiện văn phòng, phụ kiện công nghệ" />
+    <meta name="author" content="Hiếu Store" />
     <meta name="robots" content="index, follow" />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://unitekvn.com" />
+    <link rel="canonical" href="https://khotoolsocial.click/" />
 
     <!-- Google Site Verification -->
     <meta name="google-site-verification" content="Fe6Jgoc5-M4ZJ0GZkNVSVLyW5PYY2G9UA_4ysIJo7Do" />
 
 
     <!-- Open Graph (OG) -->
-    <meta property="og:title" content="Unitek Việt Nam - Đại lý phân phối linh kiện Unitek chính hãng tại Việt Nam" />
+    <meta property="og:title" content="Hiếu Store - Đại lý phân phối linh kiện Hiếu Store chính hãng tại Việt Nam" />
     <meta property="og:description"
-        content="Khám phá linh kiện Unitek chính hãng: cáp HDMI, USB, dock sạc, bộ chuyển đổi và các sản phẩm công nghệ cao cấp tại Unitek Việt Nam." />
-    <meta property="og:image" content="https://unitekvn.com/path-to-your-image.jpg" />
-    <meta property="og:url" content="https://unitekvn.com" />
+        content="Khám phá linh kiện Hiếu Store chính hãng: cáp HDMI, USB, dock sạc, bộ chuyển đổi và các sản phẩm công nghệ cao cấp tại Hiếu Store." />
+    <meta property="og:image" content="https://khotoolsocial.click//path-to-your-image.jpg" />
+    <meta property="og:url" content="https://khotoolsocial.click/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="vi_VN" />
-    <meta property="og:site_name" content="Unitek Việt Nam" />
+    <meta property="og:site_name" content="Hiếu Store" />
 	<link rel="shortcut icon" href="{{ asset('public/frontend/images/favicon.ico') }}" type="image/png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Unitek Việt Nam - Đại lý phân phối linh kiện Unitek chính hãng tại Việt Nam" />
+    <meta name="twitter:title" content="Hiếu Store - Đại lý phân phối linh kiện Hiếu Store chính hãng tại Việt Nam" />
     <meta name="twitter:description"
-        content="Unitek Việt Nam chuyên phân phối linh kiện Unitek chính hãng: cáp HDMI, USB, dock sạc, bộ chuyển đổi và nhiều sản phẩm công nghệ khác." />
-    <meta name="twitter:image" content="https://unitekvn.com/path-to-your-image.jpg" />
+        content="Hiếu Store chuyên phân phối linh kiện Hiếu Store chính hãng: cáp HDMI, USB, dock sạc, bộ chuyển đổi và nhiều sản phẩm công nghệ khác." />
+    <meta name="twitter:image" content="https://khotoolsocial.click//path-to-your-image.jpg" />
 <link rel="stylesheet" href="{{ asset('public/frontend/css/style-login.css') }}">
 <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap'>

@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Title & Meta Description -->
-    <title>@yield('title', 'Redragon Việt Nam - Cung cấp Bàn phím cơ, Chuột gaming, Tai nghe chính hãng')</title>
-    <meta name="description" content="@yield('description', 'Redragon Việt Nam - Đại lý phân phối chính hãng các sản phẩm gaming Redragon: bàn phím cơ, chuột gaming, tai nghe, mousepad và phụ kiện gaming cao cấp tại Việt Nam.')">
-    <meta name="keywords" content="@yield('keywords', 'Redragon, Redragon Việt Nam, bàn phím cơ, chuột gaming, tai nghe gaming, mousepad, phụ kiện gaming, gaming peripherals')">
-    <meta name="author" content="Redragon Việt Nam" />
+    <title>@yield('title', 'Hiếu Store - Cung cấp Bàn phím cơ, Chuột gaming, Tai nghe chính hãng')</title>
+    <meta name="description" content="@yield('description', 'Hiếu Store - Đại lý phân phối chính hãng các sản phẩm gaming Hiếu Store: bàn phím cơ, chuột gaming, tai nghe, mousepad và phụ kiện gaming cao cấp tại Việt Nam.')">
+    <meta name="keywords" content="@yield('keywords', 'Hiếu Store, Hiếu Store, bàn phím cơ, chuột gaming, tai nghe gaming, mousepad, phụ kiện gaming, gaming peripherals')">
+    <meta name="author" content="Hiếu Store" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta http-equiv="content-language" content="vi-VN">
     <meta name="theme-color" content="#ffffff">
@@ -28,18 +28,18 @@
     <meta name="google-site-verification" content="Fe6Jgoc5-M4ZJ0GZkNVSVLyW5PYY2G9UA_4ysIJo7Do" />
 
     <!-- Open Graph (OG) -->
-    <meta property="og:title" content="@yield('og_title', 'Redragon Việt Nam - Bàn phím cơ, Chuột gaming, Tai nghe gaming chính hãng')" />
-    <meta property="og:description" content="@yield('og_description', 'Khám phá sản phẩm gaming Redragon chính hãng: bàn phím cơ, chuột gaming, tai nghe gaming, mousepad và các phụ kiện gaming cao cấp tại Redragon Việt Nam.')" />
+    <meta property="og:title" content="@yield('og_title', 'Hiếu Store - Bàn phím cơ, Chuột gaming, Tai nghe gaming chính hãng')" />
+    <meta property="og:description" content="@yield('og_description', 'Khám phá sản phẩm gaming Hiếu Store chính hãng: bàn phím cơ, chuột gaming, tai nghe gaming, mousepad và các phụ kiện gaming cao cấp tại Hiếu Store.')" />
     <meta property="og:image" content="@yield('og_image', asset('public/frontend/images/default-og-image.jpg'))" />
     <meta property="og:url" content="@yield('og_url', url()->current())" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="vi_VN" />
-    <meta property="og:site_name" content="Redragon Việt Nam" />
+    <meta property="og:site_name" content="Hiếu Store" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="@yield('twitter_title', 'Redragon Việt Nam - Bàn phím cơ, Chuột gaming, Tai nghe gaming chính hãng')" />
-    <meta name="twitter:description" content="@yield('twitter_description', 'Redragon Việt Nam chuyên phân phối sản phẩm gaming chính hãng: bàn phím cơ, chuột gaming, tai nghe gaming, mousepad và phụ kiện gaming cao cấp.')" />
+    <meta name="twitter:title" content="@yield('twitter_title', 'Hiếu Store - Bàn phím cơ, Chuột gaming, Tai nghe gaming chính hãng')" />
+    <meta name="twitter:description" content="@yield('twitter_description', 'Hiếu Store chuyên phân phối sản phẩm gaming chính hãng: bàn phím cơ, chuột gaming, tai nghe gaming, mousepad và phụ kiện gaming cao cấp.')" />
     <meta name="twitter:image" content="@yield('twitter_image', asset('public/frontend/images/default-og-image.jpg'))" />
 
     <!-- Favicon -->
@@ -59,15 +59,13 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Redragon Việt Nam",
-      "alternateName": "Redragon",
-      "url": "https://redragon.vn/",
+      "name": "Hiếu Store",
+      "alternateName": "Hiếu Store",
+      "url": "https://khotoolsocial.click/",
       "logo": "{{ asset('public/frontend/images/logo/logo.webp') }}",
-      "description": "Đại lý phân phối chính hãng các sản phẩm gaming Redragon tại Việt Nam: bàn phím cơ, chuột gaming, tai nghe gaming, mousepad và phụ kiện gaming cao cấp",
+      "description": "Đại lý phân phối chính hãng các sản phẩm gaming Hiếu Store tại Việt Nam: bàn phím cơ, chuột gaming, tai nghe gaming, mousepad và phụ kiện gaming cao cấp",
       "sameAs": [
-        "https://www.facebook.com/redragon/",
-        "https://www.youtube.com/@ReddragonOfficial",
-        "https://www.instagram.com/reddragon_official"
+       
       ],
       "contactPoint": [
         {
@@ -79,12 +77,12 @@
         {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
-          "email": "support@redragon.vn"
+          "email": "minhhieu698hcm@gmail.com"
         }
       ],
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "444 Nguyễn Tri Phương, Phường Vườn Lài",
+        "streetAddress": "102 Phan Văn Hớn",
         "addressLocality": "Thành phố Hồ Chí Minh",
         "addressRegion": "TP. HCM",
         "postalCode": "",
@@ -100,12 +98,12 @@
     {
       "@context": "https://schema.org/",
       "@type": "LocalBusiness",
-      "name": "Redragon Việt Nam",
+      "name": "Hiếu Store",
       "image": "{{ asset('public/frontend/images/logo/logo.webp') }}",
-      "description": "Đại lý phân phối chính hãng các sản phẩm gaming Redragon tại Việt Nam: bàn phím cơ, chuột gaming, tai nghe gaming, mousepad và phụ kiện gaming cao cấp",
+      "description": "Đại lý phân phối chính hãng các sản phẩm gaming Hiếu Store tại Việt Nam: bàn phím cơ, chuột gaming, tai nghe gaming, mousepad và phụ kiện gaming cao cấp",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "444 Nguyễn Tri Phương, Phường Vườn Lài",
+        "streetAddress": "102 Phan Văn Hớn",
         "addressLocality": "Thành phố Hồ Chí Minh",
         "addressRegion": "TP. HCM",
         "postalCode": "700000",
@@ -116,7 +114,7 @@
         "latitude": "10.7655505",
         "longitude": "106.6678255"
       },
-      "url": "https://redragon.vn/",
+      "url": "https://khotoolsocial.click/",
       "telephone": "+84-975-999-628",
       "openingHoursSpecification": [
         {
@@ -139,7 +137,7 @@
         }
       ],
       "sameAs": [
-        "https://www.facebook.com/redragon/",
+        "https://www.facebook.com/Hiếu Store/",
         "https://www.youtube.com/@ReddragonOfficial",
         "https://www.instagram.com/reddragon_official"
       ]
@@ -194,7 +192,7 @@
       <span>Bạn đã có tài khoản? <a href="{{ URL::to('/login') }}">&nbsp;<strong>Đăng nhập ngay</strong></a></span>
     </div>
     <div class="register" style="margin-top: 20px">
-      <span><a href="{{URL::to('/')}}"><strong class="back-link"><i class="bx bx-undo"></i>Quay lại RedragonVN.</strong></a></span>
+      <span><a href="{{URL::to('/')}}"><strong class="back-link"><i class="bx bx-undo"></i>Quay lại Hiếu Store.</strong></a></span>
     </div>
   </div>
 </div>

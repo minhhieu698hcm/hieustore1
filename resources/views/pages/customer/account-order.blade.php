@@ -31,7 +31,7 @@
                 <div class="col-sm-4 col-md-3 rounded overflow-hidden pb-2 pb-sm-0 pe-sm-2">
                     <a class="position-relative d-flex justify-content-center align-items-center bg-body-tertiary" 
                       href="{{ route('order.details', $order->order_number) }}" style="min-height: 174px;">
-                        <img src="http://localhost/unitekver3/public/frontend/images/logo/logo-footer-unitek.webp" 
+                        <img src="{{ asset('public/frontend/images/logo/logo.webp') }}"
                             alt="Image" 
                             style="max-width: 100%; max-height: 100%;padding: 0px 20px 0px 20px;">
                     </a>

@@ -605,30 +605,30 @@
                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)';">
                             <a href="https://khotoolsocial.click/" target="_blank" rel="nofollow noopener" style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">
                                 <img src="{{ asset('public/frontend/images/logo/logo.webp') }}"
-                                    alt="Huy Phát Electronics" class="img-fluid" style="max-height: 120px; object-fit: contain;" loading="lazy">
-                            </a>
-                        </div>
-                    </div>
-                     <div class="swiper-slide" style="padding: 0 15px;">
-                        <div style="background: white; padding: 40px; border-radius: 12px; display: flex; align-items: center; justify-content: center; min-height: 280px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;"
-                            onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 30px rgba(0,0,0,0.15)';"
-                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)';">
-                            <a href="https://drive.google.com/file/d/1x18hdqxoo85QNV451OOJ5Z9j__y5q6LL" target="_blank" rel="nofollow noopener" style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">
-                                <img src="{{ asset('public/frontend/images/company_logo/logoCertificate.webp') }}"
-                                    alt="Chứng nhận Hiếu Store" style="max-height: 120px; object-fit: contain;" loading="lazy">
-                            </a>
-                        </div>
-                    </div> 
-                    <div class="swiper-slide" style="padding: 0 15px;">
-                        <div style="background: white; padding: 40px; border-radius: 12px; display: flex; align-items: center; justify-content: center; min-height: 280px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;"
-                            onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 30px rgba(0,0,0,0.15)';"
-                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)';">
-                            <a href="https://redragon.vn/" target="_blank" rel="nofollow noopener" style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">
-                                <img src="{{ asset('public/frontend/images/company_logo/company_logo_2.webp') }}"
                                     alt="Hiếu Store" class="img-fluid" style="max-height: 120px; object-fit: contain;" loading="lazy">
                             </a>
                         </div>
                     </div>
+                     {{-- <div class="swiper-slide" style="padding: 0 15px;">
+                        <div style="background: white; padding: 40px; border-radius: 12px; display: flex; align-items: center; justify-content: center; min-height: 280px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;"
+                            onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 30px rgba(0,0,0,0.15)';"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)';">
+                            <a href="" target="_blank" rel="nofollow noopener" style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">
+                                <img src="{{ asset('public/frontend/images/company_logo/logoCertificate.webp') }}"
+                                    alt="Chứng nhận Hiếu Store" style="max-height: 120px; object-fit: contain;" loading="lazy">
+                            </a>
+                        </div>
+                    </div>  --}}
+                    {{-- <div class="swiper-slide" style="padding: 0 15px;">
+                        <div style="background: white; padding: 40px; border-radius: 12px; display: flex; align-items: center; justify-content: center; min-height: 280px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;"
+                            onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 30px rgba(0,0,0,0.15)';"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)';">
+                            <a href="" target="_blank" rel="nofollow noopener" style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">
+                                <img src="{{ asset('public/frontend/images/company_logo/company_logo_2.webp') }}"
+                                    alt="Hiếu Store" class="img-fluid" style="max-height: 120px; object-fit: contain;" loading="lazy">
+                            </a>
+                        </div>
+                    </div> --}}
                 </div>
                 <div class="swiper-pagination"></div>
             </div>

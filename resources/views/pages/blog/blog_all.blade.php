@@ -36,8 +36,8 @@
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Blog Redragon Việt Nam",
-  "description": "Khám phá blog Redragon Việt Nam với các bài viết về cáp HDMI, USB, hub, bộ chia, phụ kiện công nghệ chính hãng",
+  "name": "Blog Hiếu Store",
+  "description": "Khám phá blog Hiếu Store với các bài viết về cáp HDMI, USB, hub, bộ chia, phụ kiện công nghệ chính hãng",
   "url": "{{ url('/tin-tuc') }}",
   "mainEntity": [
     @php $first = true; @endphp
@@ -55,7 +55,7 @@
       "image": "{{ asset('public/upload/blog/' . $blog->blog_image) }}",
       "author": {
         "@type": "Organization",
-        "name": "Redragon Việt Nam"
+        "name": "Hiếu Store"
       },
       "datePublished": "{{ $publishedDate }}",
       "dateModified": "{{ $modifiedDate }}",
